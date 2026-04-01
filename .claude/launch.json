@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Preview (leesodi)",
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["-run", "-e", "httpd", "/Users/user/Desktop/leesodi.github.io-main", "--", "-p", "8080"],
+      "port": 8080
+    },
+    {
+      "name": "Static Server (server.py)",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["server.py"],
+      "port": 3000
+    },
+    {
+      "name": "Static Server (serve.py)",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["serve.py"],
+      "port": 3000
+    }
+  ]
+}
